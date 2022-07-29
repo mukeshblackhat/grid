@@ -1,0 +1,155 @@
+.main{
+    background:black;
+    color:white;
+    height:150%;
+    width:100%;
+    display: flex;
+    flex-direction: column ;
+}
+.top_main_page_header{
+    height:10vh;
+    border-bottom:2px solid rgb(155, 151, 151, 0.76);
+    font-size: 4rem;
+    padding:1rem 0 2rem 1rem;
+}
+.sub_heading_here{
+    height:10vh;
+    border-bottom:2px solid rgba(155, 151, 151, 0.76);
+    font-size: 4rem;
+    padding:2rem 0 2rem 1rem;
+}
+.name_site{
+    font-size: 2rem;
+    padding:1rem 0 1rem 1rem;
+    font-weight:500;
+}
+.vanrebilities_here{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    padding:1rem 0 4rem  0;
+
+    
+}
+.box{
+    width:18vw;
+    height:15vh;
+    background:red;
+    margin:0 1rem 0 0;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 3rem;
+    font-weight: 600;
+    position:relative;
+}
+.critical{
+    background:rgb(238, 67, 67);
+}
+.high{
+    background:rgb(236, 171, 50);
+}
+.medium{
+    background:rgb(231, 231, 92);
+}
+.low{
+    background:rgb(65, 173, 65);
+}
+.info{
+    background:rgb(58, 58, 156);
+}
+.critical::before{
+ content:'Critical';
+ background:white;
+ color:black;
+ position:absolute;
+ width:100%;
+ bottom:-3rem;
+ font-weight: 400;
+ font-size: 2.5rem;
+ text-align: center;
+ border-radius: 0 0 1rem 1rem;
+}
+.high::before{
+    content:'High';
+    background:white;
+    color:black;
+    position:absolute;
+    width:100%;
+    bottom:-3rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+}
+.medium::before{
+    content:'Medium';
+    background:white;
+    color:black;
+    position:absolute;
+    width:100%;
+    bottom:-3rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+}
+.low::before{
+
+    content:'Low';
+    background:white;
+    color:black;
+    position:absolute;
+    width:100%;
+    bottom:-3rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+}
+.info::before{
+    content:'Info';
+    background:white;
+    color:black;
+    position:absolute;
+    width:100%;
+    bottom:-3rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+
+}
+.list_of_vanrebilities{
+    width:90vw;
+    padding:2rem 0 0 2rem ;
+    
+}
+.headings{
+    display:flex;
+    font-size: 1.5rem;
+    padding:1rem 0 1rem 1rem;
+    /* background:grey; */
+ 
+}
+.severity{
+    width:12%;
+   
+}
+.plugin{
+    width:10%;
+}
+.cvss_num{
+    width:10%;
+  
+}
+.name{
+    width:60%;
+
+}
+
+.list_font{
+    font-weight: 400!important ;
+}

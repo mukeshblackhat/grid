@@ -1,0 +1,57 @@
+.main_home_page{
+    background:black;
+    color:white;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 4rem;
+
+}
+h1{
+    font-size: 4rem;
+}
+.form_here{
+ display: flex;
+ flex-direction:column;
+ justify-content: center;
+ 
+}
+.checklist_of_types{
+    display:flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.checklist_list_elements{
+     padding: 0 .5rem 0 .5rem;
+     width:40%;
+  
+    
+}
+.input_url_form{
+    display: flex;
+    flex-direction: column;
+
+}
+.input_field{
+    padding:10px;
+    width:30rem;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    
+}
+.submit_button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width:100%;
+   
+}
+
+
+
+
+
