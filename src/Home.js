@@ -2,6 +2,7 @@ import React from 'react'
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
 import './Home.css';
+import back from './download.png'
 
 const Home = () => {
     const [text , setText]=useState("");
@@ -31,8 +32,12 @@ const Home = () => {
     }
 
   return (
-    <>
-    <div className="Cicle_style_outside">
+    < >
+   
+    <div style={{ 
+      backgroundImage: `url(${back})` 
+    }}
+     className="Cicle_style_outside">
 
     <div className="main_home_page">
         <h1>scan your project</h1>

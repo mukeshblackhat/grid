@@ -1,5 +1,7 @@
 .main_home_page{
-    background:black;
+    background:rgba(0, 0, 0, 0.562);
+  
+    z-index: 12;
     color:white;
     width:100vw;
     height:100vh;
@@ -9,6 +11,14 @@
     flex-direction: column;
     line-height: 4rem;
 
+}
+body{
+    /* overflow: */
+ 
+}
+.img{
+    position:sticky;
+    z-index:-1;
 }
 h1{
     font-size: 4rem;
