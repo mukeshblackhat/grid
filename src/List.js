@@ -1,14 +1,15 @@
 import React from 'react'
 import './Result.css'
 
-function List() {
+function List({severity,name,cvss}) {
+ 
   return (
     <div>
          <div className="headings list_font">
-          <div className="severity">Critical</div>
-          <div className="cvss_num">10.0</div>
-          <div className="plugin">56584</div>
-          <div className="name"><span>[offline]</span> mozilla foundation unsupported application detection</div>
+          <div className="severity">{severity}</div>
+          <div className="cvss_num">{cvss}</div>
+         
+          <div className="name"> {name}</div>
         </div>
       </div>
     
